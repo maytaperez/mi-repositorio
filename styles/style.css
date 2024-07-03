@@ -166,12 +166,13 @@ main {
 }
 
 .piepagina .grupo1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2em;
-  padding: 2em 0;
-  max-width: 100%;
-  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 5%;
+  background-color: #f00423;
+  border-bottom: 2px solid #f00423;
 }
 
 .piepagina .grupo1 .box .redsocial {
@@ -188,6 +189,7 @@ main {
   color: black;
   margin-left: 1.25em;
   font-size: 1.25em;
+  text-align: center;
 }
 
 .piepagina .grupo1 .box p {
